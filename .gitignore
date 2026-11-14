@@ -1,1 +1,107 @@
 .qpanda/
+
+# ============================================================
+# MÉMOIRE CCP2 ECSR — LaTeX
+# ============================================================
+
+# 1. Fichiers auxiliaires LaTeX
+*.aux
+*.log
+*.out
+*.toc
+*.lof
+*.lot
+*.fls
+*.fdb_latexmk
+*.synctex.gz
+*.synctex.gz(busy)
+*.synctex
+*.xdv
+*.dvi
+*.nav
+*.snm
+*.vrb
+*.run.xml
+*.bcf
+*.blg
+*.bbl
+*.brf
+*.acn
+*.acr
+*.alg
+*.glg
+*.glo
+*.gls
+*.ist
+*.idx
+*.ilg
+*.ind
+*.listing
+*.lol
+
+# 2. Fichiers de cache
+_minted-*/
+*.pyg
+*.pytxcode
+pythontex-files-*/
+__pycache__/
+*.pyc
+
+# 3. Répertoires de compilation
+/build/
+/out/
+/output/
+/latex.out/
+/tmp/
+/temp/
+
+# 4. Éditeurs LaTeX
+# TeXstudio
+*.txss
+*.txss2
+*.tps
+
+# TeXmaker
+*.synctex.gz
+*.bak
+
+# Visual Studio Code
+.vscode/*.log
+.vscode/*.db
+.vscode/*.sqlite
+.vscode/*.sqlite3
+.vscode/*.sqlite3-*
+
+# JetBrains
+.idea/
+
+# 5. Fichiers temporaires et sauvegardes
+*~
+*.swp
+*.swo
+*.tmp
+*.temp
+*.bak
+*.backup
+*.old
+*.orig
+*.sav
+*.save
+*.lock
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# 6. Fichiers PDF générés par compilation
+# Conserver les PDF sources dans annexes/ et ressources/
+# Ignorer seulement le PDF principal généré
+/main.pdf
+
+# 7. Archives temporaires de livraison
+*_PATCH_*.zip
+*_CORRECTIF_*.zip
+
+# 8. Fichiers d'environnement locaux
+.env
+.env.local
+.env.*.local
