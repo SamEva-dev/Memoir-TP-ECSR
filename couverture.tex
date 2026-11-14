@@ -1,0 +1,93 @@
+% Mise en page 100% native TikZ, couverture A4 portrait.
+% Seules les photos et les marques institutionnelles sont des images.
+\newgeometry{margin=0pt}
+\begin{titlepage}
+\thispagestyle{empty}
+\begin{tikzpicture}[remember picture,overlay,x=1mm,y=1mm]
+\coordinate (SW) at (current page.south west);
+\begin{scope}[shift={(SW)}]
+\fill[white] (0,0) rectangle (210,297);
+% Bandeaux supérieurs
+\fill[bleuNuit] (5,283) rectangle (29,284);
+\fill[bleuNuit] (181,283) rectangle (205,284);
+\node[anchor=center,inner sep=0] at (69,282) {\includegraphics[width=73mm]{images/logo_aftral.png}};
+\draw[bleuNuit,line width=.4pt] (113,274)--(113,292);
+\node[anchor=center,inner sep=0] at (146,282) {\includegraphics[width=42mm]{images/logo_afpa.png}};
+% Entête académique
+\draw[bleuNuit!40,line width=.45pt] (18,264)--(57,264);
+\draw[bleuNuit!40,line width=.45pt] (153,264)--(192,264);
+\node[font=\fontsize{16}{19}\selectfont\bfseries,color=bleuNuit] at (105,265) {\TitreCertification};
+\node[font=\fontsize{16}{19}\selectfont\bfseries,color=bleuNuit] at (105,255) {\SigleFormation\quad\textcolor{orangeECSR}{$\bullet$}\quad\BlocCertification};
+\fill[orangeECSR] (91,246) rectangle (119,247.3);
+% Grand titre
+\node[anchor=center,font=\fontsize{38}{43}\selectfont\bfseries,color=bleuNuit] at (96,228) {\TitreMemoireLigneUn};
+\node[anchor=center,font=\fontsize{38}{43}\selectfont\bfseries,color=bleuNuit] at (96,211) {\TitreMemoireLigneDeux};
+% Route stylisée à droite du titre
+\draw[orangeECSR,line width=2mm] (164,240) .. controls (201,226) and (189,216) .. (180,209);
+\draw[grisRoute,line width=6mm] (161,235) .. controls (196,225) and (185,217) .. (174,209);
+\draw[white,line width=.6mm,dash pattern=on 2mm off 2mm] (162,234) .. controls (191,224) and (180,217) .. (174,212);
+% Bandeau orange, texte dynamique
+\fill[grisRoute] (25,188) -- (33,201) -- (39,201) -- (31,188) -- cycle;
+\fill[orangeECSR] (36,188) -- (44,201) -- (194,201) -- (186,188) -- cycle;
+\node[anchor=center,text=white,font=\fontsize{20}{23}\selectfont\itshape] at (111,194.5) {\SousTitreMemoire};
+\fill[orangeECSR] (91,182) rectangle (119,182.8);
+\node[font=\fontsize{13}{15}\selectfont\itshape,color=bleuNuit] at (105,174) {\DescriptionMemoireLigneUn};
+\node[font=\fontsize{13}{15}\selectfont\itshape,color=bleuNuit] at (105,167) {\DescriptionMemoireLigneDeux};
+% Graphisme chantier à gauche, stylisé en vecteurs
+\begin{scope}[opacity=.28]
+\fill[grisRoute!40] (5,90) -- (5,132) -- (37,132) -- (37,90) -- cycle;
+\foreach \yy in {99,108,117,126}{\draw[bleuNuit,line width=.5pt] (5,\yy)--(37,\yy);}
+\foreach \xx in {11,20,29}{\draw[bleuNuit,line width=.5pt] (\xx,90)--(\xx,132);}
+\draw[bleuNuit,line width=.8pt] (17,131)--(20,152)--(23,131) (20,152)--(55,148) (20,152)--(7,143);
+\draw[bleuNuit,line width=.5pt] (20,148)--(51,148) (42,148)--(42,137);
+\end{scope}
+% photo recadrée / masque polygonal incliné
+\begin{scope}
+\clip (74,161) -- (203,161) -- (203,94) -- (173,88) -- (14,88) -- (75,161) -- cycle;
+\node[inner sep=0,anchor=south west] at (23,88) {\includegraphics[width=187mm,height=78mm]{images/photo_conducteur.png}};
+\end{scope}
+% Masques d'angles blancs et accents orange
+\fill[orangeECSR] (10,80)--(16,80)--(42,111)--(36,111)--cycle;
+\fill[orangeECSR] (183,96)--(200,115)--(200,110)--(188,96)--cycle;
+% Axes / pictogrammes dessinés en TikZ
+\draw[bleuNuit!40,line width=.45pt] (53,54)--(53,77);
+\draw[bleuNuit!40,line width=.45pt] (105,54)--(105,77);
+\draw[bleuNuit!40,line width=.45pt] (157,54)--(157,77);
+% pédagogie : mortier et pompon
+\draw[bleuNuit,line width=.8pt] (23,72)--(34,77)--(45,72)--(34,67)--cycle;
+\draw[bleuNuit,line width=.8pt] (28,70)--(28,65) .. controls (34,62) and (40,65) .. (40,70);
+\draw[bleuNuit,line width=.8pt] (45,72)--(45,65);
+% bouclier
+\draw[orangeECSR,line width=.9pt] (81,77)--(88,80)--(95,77)--(95,70) .. controls (92,66) and (89,63) .. (88,63) .. controls (85,66) and (81,69) .. (81,70)--cycle;
+\draw[orangeECSR,line width=.9pt] (84,71)--(87,68)--(92,74);
+% balance
+\draw[bleuNuit,line width=.8pt] (131,77)--(131,64) (122,73)--(140,73) (125,77)--(137,77);
+\draw[bleuNuit,line width=.7pt] (124,73)--(120,66)--(128,66)--cycle (138,73)--(134,66)--(142,66)--cycle;
+\draw[bleuNuit,line width=.8pt] (124,63)--(138,63);
+% feuille
+\draw[vertECSR,line width=.85pt] (181,64) .. controls (173,73) and (185,80) .. (190,80) .. controls (193,68) and (188,63) .. (181,64);
+\draw[vertECSR,line width=.75pt] (178,60)--(188,75);
+% 4 thèmes
+\node[anchor=north,align=center,text width=48mm,font=\fontsize{10}{11}\selectfont\bfseries,color=bleuNuit] at (29,61) {\AxeUnTitre};
+\node[anchor=north,align=center,text width=48mm,font=\fontsize{8}{10}\selectfont\itshape,color=bleuNuit] at (29,47) {\AxeUnDescription};
+\node[anchor=north,align=center,text width=48mm,font=\fontsize{10}{11}\selectfont\bfseries,color=bleuNuit] at (80,61) {\AxeDeuxTitre};
+\node[anchor=north,align=center,text width=48mm,font=\fontsize{8}{10}\selectfont\itshape,color=bleuNuit] at (80,47) {\AxeDeuxDescription};
+\node[anchor=north,align=center,text width=48mm,font=\fontsize{10}{11}\selectfont\bfseries,color=bleuNuit] at (131,61) {\AxeTroisTitre};
+\node[anchor=north,align=center,text width=48mm,font=\fontsize{8}{10}\selectfont\itshape,color=bleuNuit] at (131,47) {\AxeTroisDescription};
+\node[anchor=north,align=center,text width=48mm,font=\fontsize{10}{11}\selectfont\bfseries,color=bleuNuit] at (183,61) {\AxeQuatreTitre};
+\node[anchor=north,align=center,text width=48mm,font=\fontsize{8}{10}\selectfont\itshape,color=bleuNuit] at (183,47) {\AxeQuatreDescription};
+\draw[bleuNuit,line width=.5pt] (12,31)--(198,31);
+% bande d'information inférieure
+\node[anchor=west,font=\fontsize{10}{12}\selectfont\bfseries,color=bleuNuit] at (10,21) {\LieuMemoire};
+\draw[bleuNuit!50] (59,15)--(59,26);
+\node[anchor=center,align=center,font=\fontsize{9}{11}\selectfont,color=bleuNuit] at (105,20) {\FormationPublic};
+\draw[bleuNuit!50] (146,15)--(146,26);
+\node[anchor=center,align=center,font=\fontsize{9}{11}\selectfont\itshape,color=bleuNuit] at (175,20) {\SignatureMemoire};
+\fill[bleuNuit] (0,0)--(210,0)--(210,10)--(163,3)--(0,4)--cycle;
+\fill[orangeECSR] (125,0)--(210,0)--(210,9)--(166,2)--cycle;
+\fill[bleuNuit] (0,0)--(210,0)--(210,6)--(163,1)--(0,3)--cycle;
+\end{scope}
+\end{tikzpicture}
+\end{titlepage}
+\restoregeometry
+\clearpage

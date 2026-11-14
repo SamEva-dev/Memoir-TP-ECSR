@@ -1,0 +1,12 @@
+% Deuxième couverture : image fixe avec promotion 2026-2027.
+% Ne modifie pas la couverture TikZ native.
+\newgeometry{margin=0pt}
+\begin{titlepage}
+  \thispagestyle{empty}
+  \begin{tikzpicture}[remember picture,overlay]
+    \node[inner sep=0,anchor=center] at (current page.center) {%
+      \includegraphics[width=\paperwidth,height=\paperheight]{images/couverture_image_session_2026_2027.png}%
+    };
+  \end{tikzpicture}
+\end{titlepage}
+\restoregeometry
