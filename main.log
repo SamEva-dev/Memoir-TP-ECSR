@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.28 (MiKTeX 25.12) (preloaded format=pdflatex 2026.11.11)  15 NOV 2026 23:02
+This is pdfTeX, Version 3.141592653-2.6-1.40.28 (MiKTeX 25.12) (preloaded format=pdflatex 2026.11.11)  17 NOV 2026 11:37
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -873,11 +873,11 @@ Package microtype Info: Character `029' is missing
 (microtype)             in font `T1/lmr/m/sc/10.95'.
 (microtype)             Ignoring protrusion settings for this character.
  [9]
-<images/diagnostic_afpa_13_repondants.png, id=377, 786.94pt x 460.922pt>
+<images/diagnostic_afpa_13_repondants.png, id=377, 1750.54pt x 905.3825pt>
 File: images/diagnostic_afpa_13_repondants.png Graphic file (type png)
 <use images/diagnostic_afpa_13_repondants.png>
 Package pdftex.def Info: images/diagnostic_afpa_13_repondants.png  used on input line 94.
-(pdftex.def)             Requested size: 455.24411pt x 266.63866pt.
+(pdftex.def)             Requested size: 455.24411pt x 235.44916pt.
  [10 <./images/diagnostic_afpa_13_repondants.png>] [11] [12]
 chapitres/04_analyse.tex:173: ignored error: Infinite glue shrinkage found in box being split [13] [14]
 *geometry* verbose mode - [ newgeometry ] result:
@@ -1344,9 +1344,9 @@ Here is how much of TeX's memory you used:
  56397 multiletter control sequences out of 15000+600000
  709366 words of font info for 196 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 84i,12n,117p,1065b,748s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 84i,13n,117p,1065b,748s stack positions out of 10000i,1000n,20000p,200000b,200000s
 <C:/Program Files/MiKTeX/fonts/type1/public/lm/lmbx10.pfb><C:/Program Files/MiKTeX/fonts/type1/public/lm/lmbx12.pfb><C:/Program Files/MiKTeX/fonts/type1/public/lm/lmbx8.pfb><C:/Program Files/MiKTeX/fonts/type1/public/lm/lmcsc10.pfb><C:/Program Files/MiKTeX/fonts/type1/public/lm/lmr10.pfb><C:/Program Files/MiKTeX/fonts/type1/public/lm/lmr8.pfb><C:/Program Files/MiKTeX/fonts/type1/public/lm/lmri10.pfb><C:/Program Files/MiKTeX/fonts/type1/public/lm/lmri8.pfb>
-Output written on main.pdf (72 pages, 7611356 bytes).
+Output written on main.pdf (72 pages, 8363221 bytes).
 PDF statistics:
  783 PDF objects out of 1000 (max. 8388607)
  154 named destinations out of 1000 (max. 500000)
