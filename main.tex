@@ -19,15 +19,19 @@
 \usepackage{caption}
 \usepackage{float}
 \usepackage{geometry}
+\usepackage{colortbl}
+
+\newcolumntype{L}[1]{>{\raggedright\arraybackslash}p{#1}}
+\newcolumntype{C}[1]{>{\centering\arraybackslash}p{#1}}
 \definecolor{bleuNuit}{HTML}{062B58}
 \definecolor{orangeECSR}{HTML}{FF6A12}
 \definecolor{grisRoute}{HTML}{69758B}
 \definecolor{bleuECSR}{HTML}{174A74}
 \definecolor{vertECSR}{HTML}{438259}
-\hypersetup{colorlinks=true,linkcolor=bleuECSR,urlcolor=bleuECSR,pdftitle={Mémoire CCP2 ECSR}}
+\hypersetup{colorlinks=true,linkcolor=bleuECSR,urlcolor=bleuECSR,pdftitle={Document écrit CCP2 ECSR}}
 \titleformat{\chapter}[display]{\normalfont\huge\bfseries\color{bleuECSR}}{\chaptername\ \thechapter}{12pt}{\Huge}
 \titleformat{\section}{\Large\bfseries\color{vertECSR}}{\thesection}{1em}{}
-\pagestyle{fancy}\fancyhf{}\fancyhead[L]{\small Mémoire CCP2 -- TP ECSR}\fancyhead[R]{\small Action de sensibilisation}\fancyfoot[C]{\thepage}
+\pagestyle{fancy}\fancyhf{}\fancyhead[L]{\small Document écrit CCP2 -- TP ECSR}\fancyhead[R]{\small Action de sensibilisation}\fancyfoot[C]{\thepage}
 \setlength{\headheight}{15pt}
 \onehalfspacing
 % Remplacer le texte-guide lorsque les faits et justificatifs sont disponibles.

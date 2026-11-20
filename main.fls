@@ -357,32 +357,33 @@ INPUT .\chapitres\01_introduction.tex
 INPUT chapitres\01_introduction.tex
 INPUT C:\Program Files\MiKTeX\fonts\tfm\public\lm\ec-lmr12.tfm
 INPUT C:\Program Files\MiKTeX\fonts\tfm\public\lm\ec-lmbx12.tfm
-INPUT C:\Program Files\MiKTeX\fonts\tfm\public\lm\ec-lmr8.tfm
 INPUT .\chapitres\02_commanditaire.tex
 INPUT .\chapitres\02_commanditaire.tex
 INPUT .\chapitres\02_commanditaire.tex
 INPUT .\chapitres\02_commanditaire.tex
 INPUT chapitres\02_commanditaire.tex
 INPUT C:\Program Files\MiKTeX\fonts\tfm\public\lm\ec-lmri10.tfm
+INPUT .\images\organisation_afpa_nice_simplifiee.png
+INPUT .\images\organisation_afpa_nice_simplifiee.png
+INPUT .\images\organisation_afpa_nice_simplifiee.png
+INPUT .\images\organisation_afpa_nice_simplifiee.png
+INPUT .\images\organisation_afpa_nice_simplifiee.png
+INPUT .\images\organisation_afpa_nice_simplifiee.png
+INPUT .\images\organisation_afpa_nice_simplifiee.png
+INPUT C:\Program Files\MiKTeX\fonts\tfm\public\lm\ec-lmcsc10.tfm
 INPUT C:\Program Files\MiKTeX\fonts\tfm\public\lm\ec-lmbx8.tfm
 INPUT .\chapitres\03_contexte.tex
 INPUT .\chapitres\03_contexte.tex
 INPUT .\chapitres\03_contexte.tex
 INPUT .\chapitres\03_contexte.tex
 INPUT chapitres\03_contexte.tex
-INPUT C:\Program Files\MiKTeX\tex\latex\lm\ts1lmr.fd
-INPUT C:\Program Files\MiKTeX\tex\latex\lm\ts1lmr.fd
-INPUT C:\Program Files\MiKTeX\tex\latex\lm\ts1lmr.fd
-INPUT C:\Program Files\MiKTeX\fonts\tfm\public\lm\ts1-lmr10.tfm
-INPUT .\chapitres\04_analyse.tex
-INPUT .\chapitres\04_analyse.tex
-INPUT .\chapitres\04_analyse.tex
-INPUT .\chapitres\04_analyse.tex
-INPUT chapitres\04_analyse.tex
-INPUT C:\Program Files\MiKTeX\fonts\enc\dvips\lm\lm-ts1.enc
-INPUT C:\Program Files\MiKTeX\fonts\tfm\public\lm\ec-lmr12.tfm
-INPUT C:\Program Files\MiKTeX\fonts\tfm\public\lm\ec-lmbx12.tfm
-INPUT C:\Program Files\MiKTeX\fonts\tfm\public\lm\ec-lmcsc10.tfm
+INPUT .\images\diagnostic_afpa_13_repondants.png
+INPUT .\images\diagnostic_afpa_13_repondants.png
+INPUT .\images\diagnostic_afpa_13_repondants.png
+INPUT .\images\diagnostic_afpa_13_repondants.png
+INPUT .\images\diagnostic_afpa_13_repondants.png
+INPUT .\images\diagnostic_afpa_13_repondants.png
+INPUT .\images\diagnostic_afpa_13_repondants.png
 INPUT C:\Program Files\MiKTeX\fonts\tfm\public\lm\rm-lmr10.tfm
 INPUT C:\Program Files\MiKTeX\fonts\tfm\public\lm\rm-lmr7.tfm
 INPUT C:\Program Files\MiKTeX\fonts\tfm\public\lm\rm-lmr5.tfm
@@ -393,19 +394,23 @@ INPUT C:\Program Files\MiKTeX\fonts\tfm\public\lm\lmsy10.tfm
 INPUT C:\Program Files\MiKTeX\fonts\tfm\public\lm\lmsy7.tfm
 INPUT C:\Program Files\MiKTeX\fonts\tfm\public\lm\lmsy5.tfm
 INPUT C:\Program Files\MiKTeX\fonts\tfm\public\lm\ec-lmbx10.tfm
-INPUT .\images\diagnostic_afpa_13_repondants.png
-INPUT .\images\diagnostic_afpa_13_repondants.png
-INPUT .\images\diagnostic_afpa_13_repondants.png
-INPUT .\images\diagnostic_afpa_13_repondants.png
-INPUT .\images\diagnostic_afpa_13_repondants.png
-INPUT .\images\diagnostic_afpa_13_repondants.png
-INPUT .\images\diagnostic_afpa_13_repondants.png
+INPUT C:\Program Files\MiKTeX\fonts\tfm\public\lm\ec-lmr12.tfm
+INPUT C:\Program Files\MiKTeX\fonts\tfm\public\lm\ec-lmbx12.tfm
+INPUT .\chapitres\04_analyse.tex
+INPUT .\chapitres\04_analyse.tex
+INPUT .\chapitres\04_analyse.tex
+INPUT .\chapitres\04_analyse.tex
+INPUT chapitres\04_analyse.tex
+INPUT C:\Program Files\MiKTeX\fonts\tfm\public\lm\ec-lmr8.tfm
 INPUT C:\Program Files\MiKTeX\fonts\tfm\public\lm\ec-lmri8.tfm
 INPUT .\chapitres\05_contenu.tex
 INPUT .\chapitres\05_contenu.tex
 INPUT .\chapitres\05_contenu.tex
 INPUT .\chapitres\05_contenu.tex
 INPUT chapitres\05_contenu.tex
+INPUT C:\Program Files\MiKTeX\fonts\enc\dvips\lm\lm-rm.enc
+INPUT C:\Program Files\MiKTeX\fonts\enc\dvips\lm\lm-mathit.enc
+INPUT C:\Program Files\MiKTeX\fonts\enc\dvips\lm\lm-mathsy.enc
 INPUT .\chapitres\06_analyse_prestation.tex
 INPUT .\chapitres\06_analyse_prestation.tex
 INPUT .\chapitres\06_analyse_prestation.tex
@@ -613,6 +618,34 @@ INPUT .\images\annexes\echanges\a16_20261029_confirmation_retour.png
 INPUT .\images\annexes\echanges\a16_20261029_confirmation_retour.png
 INPUT .\images\annexes\echanges\a16_20261029_confirmation_retour.png
 INPUT .\images\annexes\echanges\a16_20261029_confirmation_retour.png
+INPUT .\images\annexes\echanges\a17_20261113_validation_deux_themes.png
+INPUT .\images\annexes\echanges\a17_20261113_validation_deux_themes.png
+INPUT .\images\annexes\echanges\a17_20261113_validation_deux_themes.png
+INPUT .\images\annexes\echanges\a17_20261113_validation_deux_themes.png
+INPUT .\images\annexes\echanges\a17_20261113_validation_deux_themes.png
+INPUT .\images\annexes\echanges\a17_20261113_validation_deux_themes.png
+INPUT .\images\annexes\echanges\a17_20261113_validation_deux_themes.png
+INPUT .\images\annexes\echanges\a18_20261116_20261118_organigramme_relance.png
+INPUT .\images\annexes\echanges\a18_20261116_20261118_organigramme_relance.png
+INPUT .\images\annexes\echanges\a18_20261116_20261118_organigramme_relance.png
+INPUT .\images\annexes\echanges\a18_20261116_20261118_organigramme_relance.png
+INPUT .\images\annexes\echanges\a18_20261116_20261118_organigramme_relance.png
+INPUT .\images\annexes\echanges\a18_20261116_20261118_organigramme_relance.png
+INPUT .\images\annexes\echanges\a18_20261116_20261118_organigramme_relance.png
+INPUT .\images\annexes\echanges\a19_20261119_transmission_organigramme.png
+INPUT .\images\annexes\echanges\a19_20261119_transmission_organigramme.png
+INPUT .\images\annexes\echanges\a19_20261119_transmission_organigramme.png
+INPUT .\images\annexes\echanges\a19_20261119_transmission_organigramme.png
+INPUT .\images\annexes\echanges\a19_20261119_transmission_organigramme.png
+INPUT .\images\annexes\echanges\a19_20261119_transmission_organigramme.png
+INPUT .\images\annexes\echanges\a19_20261119_transmission_organigramme.png
+INPUT .\images\annexes\organigramme_afpa-1.png
+INPUT .\images\annexes\organigramme_afpa-1.png
+INPUT .\images\annexes\organigramme_afpa-1.png
+INPUT .\images\annexes\organigramme_afpa-1.png
+INPUT .\images\annexes\organigramme_afpa-1.png
+INPUT .\images\annexes\organigramme_afpa-1.png
+INPUT .\images\annexes\organigramme_afpa-1.png
 INPUT .\images\annexes\echanges\p01_20261011_demande_materiel.png
 INPUT .\images\annexes\echanges\p01_20261011_demande_materiel.png
 INPUT .\images\annexes\echanges\p01_20261011_demande_materiel.png
@@ -687,6 +720,8 @@ INPUT C:\Program Files\MiKTeX\fonts\type1\public\lm\lmbx8.pfb
 INPUT C:\Program Files\MiKTeX\fonts\type1\public\lm\lmbx8.pfb
 INPUT C:\Program Files\MiKTeX\fonts\type1\public\lm\lmcsc10.pfb
 INPUT C:\Program Files\MiKTeX\fonts\type1\public\lm\lmcsc10.pfb
+INPUT C:\Program Files\MiKTeX\fonts\type1\public\lm\lmmi10.pfb
+INPUT C:\Program Files\MiKTeX\fonts\type1\public\lm\lmmi10.pfb
 INPUT C:\Program Files\MiKTeX\fonts\type1\public\lm\lmr10.pfb
 INPUT C:\Program Files\MiKTeX\fonts\type1\public\lm\lmr10.pfb
 INPUT C:\Program Files\MiKTeX\fonts\type1\public\lm\lmr8.pfb
@@ -695,3 +730,5 @@ INPUT C:\Program Files\MiKTeX\fonts\type1\public\lm\lmri10.pfb
 INPUT C:\Program Files\MiKTeX\fonts\type1\public\lm\lmri10.pfb
 INPUT C:\Program Files\MiKTeX\fonts\type1\public\lm\lmri8.pfb
 INPUT C:\Program Files\MiKTeX\fonts\type1\public\lm\lmri8.pfb
+INPUT C:\Program Files\MiKTeX\fonts\type1\public\lm\lmsy10.pfb
+INPUT C:\Program Files\MiKTeX\fonts\type1\public\lm\lmsy10.pfb
